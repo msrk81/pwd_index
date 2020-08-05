@@ -1,6 +1,7 @@
-**Panda Web Design**
-*Doing e-commerce , blog , company website developing*
-*Iran/Mashhad&Tehran*
+**Panda Web Design**  \
+*Website design company,blog and store* \
+*Iran/Mashhad*
+---
  - HTML
  - CSS
  - SASS/LESS
@@ -17,13 +18,12 @@
  - Seo
  - digital marketing
  - advertising
-we coming soon :D
-gmail: roohbakhsh.saeed81@gmail.com
-telegram: @msrk81
-front end: saeed roohbakhsh
-back end: Mohammad Rezaei
-seo: Daniel Fakhraee
-and more...
+ ---
+we coming soon :D \
+website: http://pandawebdesign.ir \
+instagram: https://www.instagram.com/pandaweb_ir \
+telegram: https://t.me/pandaweb_ir \
+**Follow us if you like**
 
 
 
