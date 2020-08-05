@@ -3,6 +3,22 @@
 FlexBox
 =======
 */
+
+@-ms-viewport {
+    width: device-width;
+}
+
+html {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 .container {
     width: 100%;
     padding-right: 15px;
@@ -377,7 +393,7 @@ textarea {
 
 ::-webkit-file-upload-button {
     -webkit-appearance: button;
-    font: inherit; 
+    font: inherit;
 }
 
 details {
