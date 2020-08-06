@@ -21,8 +21,8 @@ html {
 
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -416,4 +416,87 @@ template {
 =================
 End Normalize css
 =================
+*/
+
+/*
+============
+Start Header
+============
+*/
+
+header {
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    background: rgb(104, 108, 253);
+    padding-bottom: 10%;
+    background: linear-gradient(90deg, rgba(104, 108, 253, 1) 0%, rgba(78, 39, 209, 1) 100%);
+}
+
+nav {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.headerLogo img {
+    width: 80px;
+    height: auto;
+}
+
+.headerNavigationLink {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.headerNavigationLink ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.headerNavigationLink li {
+    flex: 1 1 auto;
+}
+
+.headerNavigationLink a {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.HeaderNavigationButton a {
+    float: left;
+    padding: 15px 20px;
+    font-size: 12px;
+    background-color: #ffffff;
+    color: #FF5D89;
+    border-radius: 30px;
+}
+
+.headerTitr {
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.headerButton a {
+    background-color: #FF5D89;
+    color: #ffffff;
+    padding: 15px 60px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.headerButton {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.headerImage {
+    position: relative;
+    bottom: 1rem;
+}
+
+/*
+=========
+EndHeader
+=========
 */
