@@ -646,11 +646,42 @@ Start Section2
     margin-right: auto;
     background-color: #ffffff;
     padding: 40px 50px 70px 45px;
+    margin-bottom: 10%;
 }
 
+.section2ContentBox img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1.5rem;
+}
+
+.section2ContentBox h4 {
+    font-size: 17px;
+}
+
+.section2ContentBox p {
+    font-size: 13px;
+}
 
 /*
 ============
 End Section2
+============
+*/
+
+/*
+==============
+Start Section3
+==============
+*/
+
+
+
+/*
+============
+End Section3
 ============
 */
