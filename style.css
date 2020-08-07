@@ -208,15 +208,18 @@ EndFonts
 p, a {
     font-family: "iransans", sans-serif;
     line-height: 150%;
+    color: #7B7F98;
 }
 
 h1, h2, h3 {
     font-family: "iransansblack", sans-serif;
     line-height: 150%;
+    color: #233E63;
 }
 
 h4, h5, h6 {
     font-family: "iransansbold", sans-serif;
+    color: #233E63;
 }
 
 a {
@@ -225,6 +228,11 @@ a {
 
 body {
     direction: rtl;
+    background-color: #FCFBFF;
+}
+
+html {
+    overflow-x: hidden;
 }
 
 /*
@@ -430,7 +438,7 @@ Start Header
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 71rem;
 }
 
 nav {
@@ -500,8 +508,149 @@ nav {
     padding-left: 70px;
 }
 
+.headerPlantLeft {
+    position: absolute;
+    z-index: -1;
+    width: 20%;
+    height: auto;
+    bottom: 3rem;
+    left: 0;
+}
+
+.headerPlantRight {
+    position: absolute;
+    z-index: -1;
+    width: 20%;
+    height: auto;
+    bottom: 12rem;
+    right: 0;
+}
+
+.headerRocketLeft {
+    position: absolute;
+    z-index: -1;
+    width: auto;
+    height: 60%;
+    bottom: 3rem;
+    left: 0;
+}
+
+.headerRocketRight {
+    position: absolute;
+    z-index: -1;
+    width: auto;
+    height: 40%;
+    bottom: 17rem;
+    right: 0;
+}
+
 /*
 =========
 EndHeader
 =========
+*/
+
+/*
+==============
+Start Section1
+==============
+*/
+
+.section1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: relative;
+}
+
+.section1Titr {
+    text-align: center;
+    padding-bottom: 7%;
+}
+
+.section1ContentBox {
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section1ContentBox img {
+    padding: 20px;
+    width: 65px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.section1ContentBox img[data-color="1"] {
+    background-color: #FBD1D6;
+    -webkit-box-shadow: 3px 0 10px 0 #FBD1D6;
+    -moz-box-shadow: 3px 0 10px 0 #FBD1D6;
+    box-shadow: 3px 0 10px 0 #FBD1D6;
+}
+
+.section1ContentBox img[data-color="2"] {
+    background-color: #CFC9FD;
+    -webkit-box-shadow: 3px 0 10px 0 #CFC9FD;
+    -moz-box-shadow: 3px 0 10px 0 #CFC9FD;
+    box-shadow: 3px 0 10px 0 #CFC9FD;
+}
+
+.section1ContentBox img[data-color="3"] {
+    background-color: #BDE3FF;
+    -webkit-box-shadow: 3px 0 10px 0 #BDE3FF;
+    -moz-box-shadow: 3px 0 10px 0 #BDE3FF;
+    box-shadow: 3px 0 10px 0 #BDE3FF;
+}
+
+
+.section1ContentBox h4 {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.section1ContentBox p {
+    font-size: 13px;
+}
+
+.section1PlanetRight {
+    position: absolute;
+    right: -13rem;
+    top: -10rem;
+    z-index: -1;
+    width: 41%;
+}
+
+.section1PlanetLeft {
+    position: absolute;
+    left: -11rem;
+    top: 20rem;
+    z-index: -1;
+    width: 41%;
+}
+
+/*
+============
+End Section1
+============
+*/
+
+/*
+==============
+Start Section2
+==============
+*/
+
+.section2ContentBox {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding: 40px 50px 70px 45px;
+}
+
+
+/*
+============
+End Section2
+============
 */
