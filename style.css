@@ -771,9 +771,9 @@ Start Section3
 .section3PlanetBackground {
     position: absolute;
     z-index: -1;
-    right: -15rem;
+    right: -12rem;
     top: 0;
-    width: 50%;
+    width: 40%;
 }
 
 /*
@@ -788,7 +788,12 @@ Start Section4
 ==============
 */
 
-
+.section4Background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+}
 
 /*
 ============
