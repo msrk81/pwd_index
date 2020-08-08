@@ -768,6 +768,14 @@ Start Section3
     opacity: 50%;
 }
 
+.section3PlanetBackground {
+    position: absolute;
+    z-index: -1;
+    right: -15rem;
+    top: 0;
+    width: 50%;
+}
+
 /*
 ============
 End Section3
@@ -787,3 +795,4 @@ Start Section4
 End Section4
 ============
 */
+
