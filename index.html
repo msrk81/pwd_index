@@ -152,7 +152,7 @@ Start Section2
 ==============
 -->
 
-<section class="container">
+<section class="container section2">
     <h1 class="section1Titr">
         مراحل کار ما
         <br>
@@ -318,8 +318,98 @@ Start Section3
 ==============
 -->
 
-<section>
-    
+<section class="section3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 section3Text">
+                <h1>
+                    با هزینه مناسب یک وب سایت حرفه ای داشته باشید
+                </h1>
+                <p>
+                    ما با رعایت اصول طراحی و کدنویسی وب سایت شما، سایت های جذاب و مدرن با توجه به رعایت هزینه مناسب
+                    بهترین وب سایت ها را به شما ارئه می دهیم
+                    <br>
+                    شما می توانید تنها یک مورد از جدول را انتخاب نمایید و نیازی به پرداخت باقی بخش ها ندارید
+                </p>
+                <div class="section3PriceSelect">
+                    <a href="#webdesign" id="webdesign" onclick="webdesign()">
+                        طراحی سایت
+                    </a>
+                    <a href="#update" id="update" onclick="webupdate()">
+                        بروزرسانی سایت
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="row">
+                    <div id="webdesignBox" class="col-lg-8 section3PriceBox">
+                        <h4>
+                            طراحی وب سایت
+                        </h4>
+                        <h1>
+                            یک میلیون تومان
+                        </h1>
+                        <div>
+                            <p>
+                                طراحی رابط کاربری
+                            </p>
+                            <p>
+                                کدنویسی سمت کاربر
+                            </p>
+                            <p>
+                                واکنش گرایی وب سایت
+                            </p>
+                            <p>
+                                کدنویسی سمت سرور
+                            </p>
+                            <p>
+                                خطایابی و بهینه سازی
+                            </p>
+                        </div>
+                        <a href="#">
+                            <h4>
+                                مشاوره و سفارش
+                            </h4>
+                            <img src="images/index/section3/section3_next_arrow.svg" alt="">
+                        </a>
+                    </div>
+
+                    <div id="updatewebBox" style="" class="col-lg-8 section3PriceBox">
+                        <h4>
+                            بروزرسانی و تعمیرات
+                        </h4>
+                        <h1>
+                            پانصد هزارتومان
+                        </h1>
+                        <div>
+                            <p>
+                                مدیریت محتوا و محصولات
+                            </p>
+                            <p>
+                                خطایابی و بهینه سازی
+                            </p>
+                            <p>
+                                ایجاد تغییرات وب سایت
+                            </p>
+                            <p>
+                                پشتیبانی وب سایت
+                            </p>
+                            <p>
+                                سئو وب سایت
+                            </p>
+                        </div>
+                        <a href="#">
+                            <h4>
+                                مشاوره و سفارش
+                            </h4>
+                            <img src="images/index/section3/section3_next_arrow.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>
 
 <!--
@@ -327,6 +417,63 @@ Start Section3
 End Section3
 ============
 -->
+
+<!--
+==============
+Start Section4
+==============
+-->
+
+<section>
+
+</section>
+
+<!--
+============
+End Section4
+============
+-->
+
+<script>
+    let webDesignSelect = document.getElementById("webdesign");
+    let webUpdateSelect = document.getElementById("update");
+    let webDesignBox = document.getElementById("webdesignBox");
+    let webUpdateBox = document.getElementById("updatewebBox");
+
+    function webdesign() {
+        webDesignSelect.style.backgroundColor = "#FF5D89";
+        webDesignSelect.style.color = "#ffffff";
+        webUpdateSelect.style.backgroundColor = "#ffffff";
+        webUpdateSelect.style.color = "#233E63";
+        webUpdateBox.style.transform = "scale(0.8)";
+        webUpdateBox.style.position = "absolute";
+        webUpdateBox.style.top = "0";
+        webUpdateBox.style.left = "0";
+        webUpdateBox.style.zIndex = "-1";
+        webUpdateBox.style.opacity = "50%";
+        webDesignBox.style.transform = "scale(1)";
+        webDesignBox.style.position = "unset";
+        webDesignBox.style.opacity = "1";
+        webDesignBox.style.zIndex = "1";
+    }
+
+    function webupdate() {
+        webUpdateSelect.style.backgroundColor = "#FF5D89";
+        webUpdateSelect.style.color = "#ffffff";
+        webDesignSelect.style.backgroundColor = "#ffffff";
+        webDesignSelect.style.color = "#233E63";
+        webDesignBox.style.transform = "scale(0.8)";
+        webDesignBox.style.position = "absolute";
+        webDesignBox.style.top = "0";
+        webDesignBox.style.left = "0";
+        webDesignBox.style.zIndex = "-1";
+        webDesignBox.style.opacity = "50%";
+        webUpdateBox.style.transform = "scale(1)";
+        webUpdateBox.style.position = "unset";
+        webUpdateBox.style.opacity = "1";
+        webUpdateBox.style.zIndex = "1";
+    }
+</script>
 
 </body>
 </html>

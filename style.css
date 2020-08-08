@@ -640,6 +640,10 @@ Start Section2
 ==============
 */
 
+.section2 {
+    margin-bottom: 10%;
+}
+
 .section2ContentBox {
     width: 90%;
     margin-left: auto;
@@ -678,10 +682,108 @@ Start Section3
 ==============
 */
 
+.section3 {
+    position: relative;
+    margin-bottom: 10%;
+}
 
+.section3Text {
+    padding-top: 30px;
+    padding-left: 10%;
+}
+
+.section3PriceSelect {
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 10px;
+    display: inline-flex;
+    border-radius: 32px;
+    -webkit-box-shadow: 5px 0 20px 5px rgba(34, 61, 98, 0.3);
+    -moz-box-shadow: 5px 0 20px 5px rgba(34, 61, 98, 0.3);
+    box-shadow: 5px 0 20px 5px rgba(34, 61, 98, 0.3);
+}
+
+.section3PriceSelect a {
+    padding: 10px 15px;
+    border-radius: 32px;
+    color: #233E63;
+    transition-duration: 0.3s;
+}
+
+.section3PriceSelect a:first-child {
+    background-color: #FF5D89;
+    color: #ffffff;
+}
+
+.section3PriceBox {
+    background-color: #ffffff;
+    transition-duration: 0.3s;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    -webkit-box-shadow: 5px 0 15px 5px rgba(34, 61, 98, 0.5);
+    -moz-box-shadow: 5px 0 15px 5px rgba(34, 61, 98, 0.5);
+    box-shadow: 5px 0 15px 5px rgba(34, 61, 98, 0.5);
+}
+
+.section3PriceBox h4 {
+    padding-bottom: 20px;
+}
+
+.section3PriceBox h1 {
+    padding-bottom: 40px;
+}
+
+.section3PriceBox p {
+    padding-bottom: 5px;
+}
+
+.section3PriceBox a {
+    margin-top: 30px;
+    display: inline-flex;
+    background-color: #FF5D89;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 50px;
+}
+
+.section3PriceBox a img {
+    padding-right: 5px;
+}
+
+.section3PriceBox a h4 {
+    padding-bottom: 0 !important;
+    color: #ffffff;
+}
+
+#updatewebBox {
+    transform: scale(0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 50%;
+}
 
 /*
 ============
 End Section3
+============
+*/
+
+/*
+==============
+Start Section4
+==============
+*/
+
+
+
+/*
+============
+End Section4
 ============
 */
