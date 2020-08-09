@@ -614,7 +614,7 @@ Start Section1
 
 .section1PlanetRight {
     position: absolute;
-    right: -13rem;
+    right: -13%;
     top: -10rem;
     z-index: -1;
     width: 41%;
@@ -622,7 +622,7 @@ Start Section1
 
 .section1PlanetLeft {
     position: absolute;
-    left: -11rem;
+    left: -11%;
     top: 20rem;
     z-index: -1;
     width: 41%;
@@ -771,7 +771,7 @@ Start Section3
 .section3PlanetBackground {
     position: absolute;
     z-index: -1;
-    right: -12rem;
+    right: -12%;
     top: 0;
     width: 40%;
 }
@@ -788,11 +788,106 @@ Start Section4
 ==============
 */
 
+.section4 {
+    position: relative;
+}
+
+.section4Content {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
 .section4Background {
     position: absolute;
     z-index: -1;
     width: 100%;
-    height: 100vh;
+    height: 60rem;
+}
+
+.section4ContentText h1 {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.section4Ul {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.section4Ul img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.section4Ul p {
+    margin: 0;
+    color: #ffffff;
+    padding-right: 10px;
+}
+
+.section4ContentImage img {
+    width: 130%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section4Number {
+    text-align: center;
+}
+
+.section4Number p , .section4Number h1 {
+    color: #ffffff;
+}
+
+.section4Number p {
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.section4Number h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+}
+
+.section4CircleTop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: auto;
+    z-index: -1;
+}
+
+.section4CircleBottom {
+    position: absolute;
+    bottom: -11rem;
+    left: 0;
+    height: 100%;
+    width: auto;
+    z-index: -1;
+}
+
+.section4RocketBottom {
+    position: absolute;
+    bottom: -10rem;
+    left: 0;
+    width: auto;
+    height: 45%;
+    z-index: -1;
+}
+
+.section4RocketTop {
+    position: absolute;
+    top: 0;
+    right: 5rem;
+    z-index: -1;
+    width: 20%;
+    height: auto;
 }
 
 /*
