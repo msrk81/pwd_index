@@ -909,6 +909,7 @@ Start Section5
 
 .section5 {
     padding-top: 25%;
+    position: relative;
 }
 
 .section5Ttir p {
@@ -968,6 +969,14 @@ Start Section5
     box-shadow: 3px 0 3px 1px rgba(35, 62, 99, 0.3);
 }
 
+.section5PlanetBackground {
+    position: absolute;
+    right: -13%;
+    top: 3rem;
+    z-index: -1;
+    width: 41%;
+}
+
 /*
 ============
 End Section5
@@ -980,14 +989,24 @@ Start Section6
 ==============
 */
 
+.section6 {
+    margin-bottom: 10%;
+}
+
+.section6Titr h1 {
+    padding-bottom: 55px;
+}
+
 .row {
     display: -webkit-box;
     display: flex;
 }
+
 .row .col {
     -webkit-box-flex: 1;
     flex: 1;
 }
+
 .row .col:last-child {
     margin-left: 1em;
 }
@@ -1003,6 +1022,7 @@ Start Section6
     overflow: hidden;
     margin-bottom: 5%;
 }
+
 .tab-label {
     display: -webkit-box;
     display: flex;
@@ -1022,6 +1042,7 @@ Start Section6
     -webkit-transition: all .5s;
     transition: all .35s;
 }
+
 .tab-content {
     max-height: 0;
     padding: 0 3em;
@@ -1032,31 +1053,84 @@ Start Section6
     font-family: "iransans", sans-serif;
     line-height: 150%;
     text-align: justify;
+    border-radius: 3px;
 }
 
-input:checked ~ .tab-content {
+.dropInput:checked ~ .tab-content {
     max-height: 100vh;
     padding: 1em 3em;
 }
 
-input {
+.dropInput {
     position: absolute;
     opacity: 0;
     z-index: -1;
 }
 
-label {
+.dropQL {
     font-family: "iransansbold", sans-serif;
     line-height: 150%;
 }
 
 .section6Image img {
-    width: 100%;
+    width: 80%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*
 ============
 End Section6
+============
+*/
+
+/*
+==============
+Start Section7
+==============
+*/
+
+.section7Text p {
+    margin-top: 0;
+    padding-bottom: 35px;
+}
+
+.section7Text h1 {
+    margin-bottom: 0;
+}
+
+.section7Image img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section7Contact input {
+    width: 80%;
+}
+
+.section7Contact textarea {
+    width: 100%;
+}
+
+.section7Contact input , .section7Contact textarea {
+    border: #FF5D89 2px solid;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "iransans", sans-serif;
+}
+
+.section7Contact input {
+    padding-right: 50px;
+}
+
+/*
+============
+End Section7
 ============
 */
