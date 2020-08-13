@@ -839,7 +839,7 @@ Start Section4
     text-align: center;
 }
 
-.section4Number p , .section4Number h1 {
+.section4Number p, .section4Number h1 {
     color: #ffffff;
 }
 
@@ -896,3 +896,167 @@ End Section4
 ============
 */
 
+/*
+==============
+Start Section5
+==============
+*/
+
+.section5Slide {
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+
+.section5 {
+    padding-top: 25%;
+}
+
+.section5Ttir p {
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.section5Ttir h1 {
+    margin-bottom: 0;
+}
+
+.section5Arrow {
+    text-align: center;
+}
+
+.section5Arrow img {
+    margin-left: 20px;
+    float: left;
+    cursor: pointer;
+}
+
+.section5Button a {
+    float: left;
+    font-family: "iransansbold", sans-serif;
+    background-color: #FF5D89;
+    color: #ffffff;
+    padding: 15px 70px;
+    border-radius: 30px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.section5ContentImage img {
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -webkit-box-shadow: 3px 0 3px 1px rgba(35, 62, 99, 0.3);
+    -moz-box-shadow: 3px 0 3px 1px rgba(35, 62, 99, 0.3);
+    box-shadow: 3px 0 3px 1px rgba(35, 62, 99, 0.3);
+}
+
+/*
+============
+End Section5
+============
+*/
+
+/*
+==============
+Start Section6
+==============
+*/
+
+.row {
+    display: -webkit-box;
+    display: flex;
+}
+.row .col {
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+.row .col:last-child {
+    margin-left: 1em;
+}
+
+.tabs {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tab {
+    width: 100%;
+    color: #2c3e50;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+.tab-label {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    padding: 1em;
+    background: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tab-label::before {
+    padding-left: 15px;
+    content: url("images/index/section6/section6_FAQ_icon.svg");
+    width: auto;
+    height: auto;
+    text-align: center;
+    -webkit-transition: all .5s;
+    transition: all .35s;
+}
+.tab-content {
+    max-height: 0;
+    padding: 0 3em;
+    color: #2c3e50;
+    background: #ffffff;
+    -webkit-transition: all .5s;
+    transition: all .35s;
+    font-family: "iransans", sans-serif;
+    line-height: 150%;
+    text-align: justify;
+}
+
+input:checked ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em 3em;
+}
+
+input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+label {
+    font-family: "iransansbold", sans-serif;
+    line-height: 150%;
+}
+
+.section6Image img {
+    width: 100%;
+    height: auto;
+}
+
+/*
+============
+End Section6
+============
+*/
