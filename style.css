@@ -1110,23 +1110,62 @@ Start Section7
 }
 
 .section7Contact input {
-    width: 80%;
+    width: 90%;
 }
 
 .section7Contact textarea {
-    width: 100%;
+    width: 95%;
+    margin-top: 30px;
 }
 
-.section7Contact input , .section7Contact textarea {
+.section7Contact input, .section7Contact textarea {
     border: #FF5D89 2px solid;
     border-radius: 5px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-family: "iransans", sans-serif;
+    color: #233E63;
+    background-color: #ffffff;
 }
 
-.section7Contact input {
+.section7Contact input, .section7Contact textarea {
     padding-right: 50px;
+    padding-left: 10px;
+}
+
+.section7Contact label img {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.section7Textarea img {
+    top: 45px !important;
+}
+
+.section7Contact textarea {
+    resize: vertical;
+    height: 150px;
+    margin-bottom: 60px;
+}
+
+.section7Contact input::placeholder , .section7Contact textarea::placeholder {
+    font-size: 13px;
+    color: #233E63;
+    opacity: 1;
+}
+
+.section7Contact button {
+    background-color: #FF5D89;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-family: "iransansbold", sans-serif;
+}
+
+.section7 {
+    margin-bottom: 10%;
 }
 
 /*
