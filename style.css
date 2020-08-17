@@ -1057,9 +1057,9 @@ Start Section6
     width: auto;
     height: auto;
     text-align: center;
-    -webkit-transition: all .35s;
-    -o-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
 .tab-content {
@@ -1067,9 +1067,9 @@ Start Section6
     padding: 0 3em;
     color: #2c3e50;
     background: #ffffff;
-    -webkit-transition: all .35s;
-    -o-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
     font-family: "iransans", sans-serif;
     line-height: 150%;
     text-align: justify;
