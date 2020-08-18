@@ -764,8 +764,8 @@ Start Section3
     border-radius: 50px;
 }
 
-.section3PriceBox a img {
-    padding-right: 5px;
+.section3PriceBox a svg {
+    margin-right: 5px;
 }
 
 .section3PriceBox a h4 {
@@ -1206,6 +1206,7 @@ Start Section7
     border-radius: 25px;
     padding: 15px 50px;
     font-family: "iransansbold", sans-serif;
+    cursor: pointer;
 }
 
 .section7 {
@@ -1476,7 +1477,10 @@ End Footer
 
 /* *** Hover*** */
 
-.HeaderNavigationButton a, .headerNavigationLink a, .headerButton a {
+.HeaderNavigationButton a, .headerNavigationLink a, .headerButton a, .section2ContentBox, .section2ContentBox h4,
+.section2ContentBox p, .section1ContentBox img, .section3PriceSelect a, .section3PriceBox a, .section3PriceBox svg path,
+.section4Ul img, .section5Button a, .section7Contact button, .tab, .section7Contact input, .section7Contact textarea,
+.footerLinks p, .footerAboutUs img {
     transition-duration: 0.5s;
 }
 
@@ -1522,6 +1526,30 @@ End Footer
     color: #FF5D89;
 }
 
-.section3PriceBox a:hover img {
+.section3PriceBox a:hover svg path {
     fill: #FF5D89;
+}
+
+.section4Ul:hover img {
+    transform: rotate(-270deg);
+}
+
+.section5Button a:hover, .section7Contact button:hover {
+    border: 1px solid #FF5D89;
+    color: #FF5D89;
+    background-color: #ffffff;
+}
+
+.tab:hover, .section7Contact input:focus, .section7Contact textarea:focus {
+    box-shadow: 0 4px 5px 0 rgba(255, 93, 137, 0.26);
+    -webkit-box-shadow: 0 4px 5px 0 rgba(255, 93, 137, 0.26);
+    -moz-box-shadow: 0 4px 5px 0 rgba(255, 93, 137, 0.26);
+}
+
+.footerLinks p:hover {
+    color: #2c3e50;
+}
+
+.footerAboutUs img:hover {
+    transform: rotate(15deg);
 }
