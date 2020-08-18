@@ -1473,3 +1473,55 @@ End Footer
         display: none;
     }
 }
+
+/* *** Hover*** */
+
+.HeaderNavigationButton a, .headerNavigationLink a, .headerButton a {
+    transition-duration: 0.5s;
+}
+
+.HeaderNavigationButton a:hover {
+    background-color: #FF5D89;
+    color: #ffffff;
+}
+
+.headerNavigationLink a:hover {
+    color: #FF5D89;
+}
+
+.headerButton a:hover {
+    background-color: #ffffff;
+    color: #FF5D89;
+}
+
+.section2ContentBox:hover {
+    background-color: #FF5D89;
+    box-shadow: 5px 4px 5px 0 rgba(255, 93, 137, 0.26);
+    -webkit-box-shadow: 5px 4px 5px 0 rgba(255, 93, 137, 0.26);
+    -moz-box-shadow: 5px 4px 5px 0 rgba(255, 93, 137, 0.26);
+}
+
+.section1ContentBox:hover img {
+    transform: scale(1.2) translateY(-5px);
+}
+
+.section2ContentBox:hover h4, .section2ContentBox:hover p {
+    color: #ffffff;
+}
+
+.section3PriceSelect a:hover {
+    border: 1px solid #FF5D89;
+}
+
+.section3PriceBox a:hover {
+    background-color: #ffffff;
+    border: 1px solid #FF5D89;
+}
+
+.section3PriceBox a:hover h4 {
+    color: #FF5D89;
+}
+
+.section3PriceBox a:hover img {
+    fill: #FF5D89;
+}
