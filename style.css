@@ -1283,3 +1283,192 @@ footer {
 End Footer
 ==========
 */
+
+/* *** Responsive *** */
+
+@media (max-width: 1200px) {
+    .headerImage {
+        width: 100%;
+    }
+
+    .section2ContentBox {
+        padding: 20px 30px 50px 25px;
+    }
+
+    .section4ContentImage img {
+        width: 100%;
+    }
+
+    .section5PlanetBackground {
+        top: 7rem;
+    }
+
+    .section4RocketBottom, .section4CircleBottom {
+        bottom: -13rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .headerNavigationLink {
+        display: none;
+        width: 0;
+    }
+
+    .headerLogo, .HeaderNavigationButton, .section5Arrow {
+        display: block;
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .headerTitr {
+        font-size: 45px;
+    }
+
+    .headerButton a, .section5Button a {
+        font-size: 14px;
+        padding: 11px 50px;
+    }
+
+    .headerImage {
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 10%;
+    }
+
+    .headerBackground, .headerPlantRight, .headerPlantLeft, .headerRocketLeft, .headerRocketRight, .section4Background,
+    .section4CircleTop, .section4CircleBottom, .section4RocketBottom, .section4RocketTop {
+        display: none;
+    }
+
+    header, .section4 {
+        background: rgb(104, 108, 253);
+        background: linear-gradient(90deg, rgba(104, 108, 253, 1) 0%, rgba(78, 39, 209, 1) 100%);
+    }
+
+    .section1PlanetRight {
+        top: 0;
+    }
+
+    .section1ContentBox p {
+        padding-bottom: 50px;
+    }
+
+    .section1ContentBox img, .section7Textarea textarea, .footerAboutUs img:first-of-type {
+        margin-bottom: 0;
+    }
+
+    .section1ContentBox h4, .footerAboutUs p {
+        padding-bottom: 0;
+    }
+
+    .section2ContentBox img {
+        width: 25%;
+    }
+
+    .section2ContentBox h4, .section2ContentBox p, .section3Text h1, .section3Text p, .section4ContentText h1,
+    .section4Ul p, .section5Ttir h1, .section5Ttir p, .section6Titr h1, .section7Text h1, .section7Text p {
+        text-align: center;
+    }
+
+    .section3Text {
+        padding: 0;
+    }
+
+    .section3Text h1 {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section3PriceSelect {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .section3PriceSelect a {
+        text-align: center;
+        width: 50%;
+    }
+
+    .section4Number:last-of-type {
+        padding-bottom: 10%;
+    }
+
+    .section5Arrow {
+        display: inline-flex;
+        flex-direction: row-reverse;
+    }
+
+    .section5Button a, .section7Contact button {
+        float: none;
+        display: block;
+        width: 30%;
+        margin-top: 3%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section5Arrow img {
+        margin-left: 0;
+    }
+
+    .section7Contact input, .section7Textarea textarea {
+        width: 100%;
+    }
+
+    .section7Contact input:first-of-type {
+        margin-top: 30px;
+    }
+
+    .section7Contact label img {
+        top: 45px;
+    }
+
+    .section7Image img {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+    .footerPlanetBackground {
+        top: 20rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .headerTitr {
+        font-size: 35px;
+    }
+
+    .section5Button a, .section7Contact button {
+        width: 40%;
+    }
+
+    .headerImage {
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 576px) {
+    .section4ContentText h1 {
+        font-size: 35px;
+    }
+
+    .section5Button a, .section7Contact button {
+        width: 60%;
+    }
+
+    .footerPlanetBackground, .footerRocketBackground {
+        display: none;
+    }
+}
+
+
+
+
+
