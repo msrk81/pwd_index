@@ -716,6 +716,7 @@ Start Section3
     -webkit-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
+    border: 1px solid #ffffff;
 }
 
 .section3PriceSelect a:first-child {
@@ -957,6 +958,7 @@ Start Section5
     color: #ffffff;
     padding: 15px 70px;
     border-radius: 30px;
+    border: 1px solid #ffffff;
 }
 
 .swiper-container {
@@ -990,6 +992,21 @@ Start Section5
     top: 3rem;
     z-index: -1;
     width: 41%;
+}
+
+.section5ContentImage a {
+    font-family: "iransansblack", sans-serif;
+    color: #Ffffff;
+    position: absolute;
+    background-color: #FF5D89;
+    padding: 15px 40px;
+    z-index: 2;
+    right: 25%;
+    top: 40%;
+    display: none;
+    -webkit-animation: slide 0.5s;
+    animation: slide 0.5s;
+    border-radius: 25px;
 }
 
 /*
@@ -1202,11 +1219,11 @@ Start Section7
 .section7Contact button {
     background-color: #FF5D89;
     color: #ffffff;
-    border: none;
     border-radius: 25px;
     padding: 15px 50px;
     font-family: "iransansbold", sans-serif;
     cursor: pointer;
+    border: 1px solid #ffffff;
 }
 
 .section7 {
@@ -1552,4 +1569,24 @@ End Footer
 
 .footerAboutUs img:hover {
     transform: rotate(15deg);
+}
+
+.section5ContentImage:hover img {
+    opacity: 0.5;
+}
+
+.section5ContentImage:hover a {
+    display: inline-block;
+}
+
+@-webkit-keyframes slide {
+    15% {
+        top: 15%;
+    }
+}
+
+@keyframes slide {
+    15% {
+        top: 15%;
+    }
 }
